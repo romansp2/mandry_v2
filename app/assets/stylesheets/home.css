@@ -157,4 +157,12 @@ section {
   max-width: 100%;
   height: auto; }
 
+.debug_section {
+  z-index: 3;
+  position: fixed;
+  left: 3px;
+  bottom: 33px;
+  background-color: aqua;
+  opacity: 0.5; }
+
 /*# sourceMappingURL=home.css.map */
