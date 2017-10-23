@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<%= provide(:title, @user.name) %>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+</head>
+<body>
+    <%= @user.name %>
+    <%= @user.email %>
+    <%= gravatar_for @user %>
+
+</body>
+</html>

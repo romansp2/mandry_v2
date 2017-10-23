@@ -2,7 +2,7 @@ require 'test_helper'
 
 class UserTest < ActiveSupport::TestCase
   def setup
-    @user = User.new(name: "Nikki", email: "O.Neil@gmail.com")
+    @user = User.new(name: "Nikki", email: "O.Neil@gmail.com", password_digest: "braaaa")
   end
   test 'shold be valid' do
     assert @user.valid?
@@ -24,6 +24,7 @@ class UserTest < ActiveSupport::TestCase
       assert @user.valid?, "#{valid.inspect} shold be valid"
     end
   end
+
 
   test 'email should be unique' do
     dublicate_of_user = @user.dup
