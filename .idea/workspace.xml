@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48f3b7d6-6c94-43ef-85ed-761fe2eca5e8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/mandry_v2.iml" afterPath="$PROJECT_DIR$/.idea/mandry_v2.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -672,7 +668,7 @@
       <workItem from="1508856415644" duration="4840000" />
       <workItem from="1508861462946" duration="1377000" />
       <workItem from="1508862941555" duration="8961000" />
-      <workItem from="1508876582601" duration="1443000" />
+      <workItem from="1508876582601" duration="1476000" />
     </task>
     <task id="LOCAL-00001" summary="18.10">
       <created>1508321581037</created>
@@ -793,7 +789,14 @@
       <option name="project" value="LOCAL" />
       <updated>1508875357392</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Закончена регистрация &#10;Без  фронта">
+      <created>1508879111854</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1508879111854</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -829,7 +832,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85065000" />
+    <option name="totallyTimeSpent" value="85098000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
