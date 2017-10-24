@@ -9,7 +9,7 @@
       <div class="error_mess">
         <%= render 'shared/error_messages' %>
       </div>
-      <div class="e"
+      <div class="labels&fields"
         <%= f.label :name %>
         <%= f.text_field :name %>
         <%= f.label :email %>
@@ -17,5 +17,6 @@
         <%= f.label :пароль %>
         <%= f.password_field :password_digest%>
         <%= f.submit "Create my account", class: "btn btn-primary" %>
+      </div>
       <% end %>
 </div>
