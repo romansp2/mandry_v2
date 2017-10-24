@@ -1,0 +1,14 @@
+h1 {
+  text-align: center;
+  font-size: 35px; }
+
+.error_mess {
+  width: 100vw;
+  text-align: center; }
+  .error_mess li {
+    list-style: none; }
+
+.row {
+  text-align: center; }
+
+/*# sourceMappingURL=new.css.map */
