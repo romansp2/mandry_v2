@@ -6,18 +6,13 @@
 <%= render 'main_page/header' %>
 <div class="left-photo"></div>
 <div class="row-new">
-  <h1>Регистрация</h1>
   <%= form_for(@user) do |f| %>
       <div class="error_mess">
         <%= render 'shared/error_messages' %>
       </div>
-        <%= f.label :name, 'Никнейм' %>
-        <%= f.text_field :name %>
-        <%= f.label :email, 'Электронная почта' %>
-        <%= f.email_field :email %>
-        <%= f.label :password_digest, 'Пароль' %>
-        <%= f.password_field :password_digest%>
-        <%= f.submit "Зарегистрироваться", class: "btn-btn-primary" %>
+        <%= f.label :name, 'Никнейм' %><%= f.text_field :name %><%= f.label :email, 'Электронная почта' %><%= f.email_field :email %><%= f.label :password_digest, 'Пароль' %><%= f.password_field :password_digest%><%= f.password_field :password_digest%>
+
+            <%= f.submit "Зарегистрироваться", class: "btn-btn-primary" %><a><%= link_to 'У меня уже есть аккаунт', about_path %></a>
 
       <% end %>
 </div>
