@@ -2,21 +2,22 @@
 <%= provide(:title, 'Регистрация') %>
 <link data-turbolinks-track="true" href="/assets/new.css" media="all"
       rel="stylesheet" />
-<h1>Регистрация</h1>
-<div class="row">
-  
-   <%= form_for(@user) do |f| %>
+
+<%= render 'main_page/header' %>
+<div class="left-photo"></div>
+<div class="row-new">
+  <h1>Регистрация</h1>
+  <%= form_for(@user) do |f| %>
       <div class="error_mess">
         <%= render 'shared/error_messages' %>
       </div>
-      <div class="labels&fields"
-        <%= f.label :name %>
+        <%= f.label :name, 'Никнейм' %>
         <%= f.text_field :name %>
-        <%= f.label :email %>
+        <%= f.label :email, 'Электронная почта' %>
         <%= f.email_field :email %>
-        <%= f.label :пароль %>
+        <%= f.label :password_digest, 'Пароль' %>
         <%= f.password_field :password_digest%>
-        <%= f.submit "Create my account", class: "btn btn-primary" %>
-      </div>
+        <%= f.submit "Зарегистрироваться", class: "btn-btn-primary" %>
+
       <% end %>
 </div>

@@ -6388,4 +6388,27 @@ a.text-dark:focus, a.text-dark:hover {
   height: 50vh;
   opacity: 0.4; }
 
+.main_header {
+  display: block;
+  text-align: right;
+  position: fixed;
+  z-index: 2;
+  width: 100vw;
+  height: 30px;
+  font-size: 19px;
+  right: 0;
+  margin-top: 10px; }
+  .main_header #top-bar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around; }
+    .main_header #top-bar li {
+      display: inline;
+      margin-right: 20px; }
+      .main_header #top-bar li a {
+        text-decoration: none;
+        color: #f86404;
+        font-family: "Open Sans Condensed"; }
+
 /*# sourceMappingURL=application.css.map */

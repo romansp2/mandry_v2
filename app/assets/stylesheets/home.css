@@ -49,26 +49,6 @@ body {
     height: 100vh;
     overflow: hidden;
     position: relative; }
-    body .main-page .main_header {
-      position: fixed;
-      z-index: 2;
-      width: inherit;
-      height: 30px;
-      font-size: 19px;
-      right: 0;
-      margin-top: 10px; }
-      body .main-page .main_header #top-bar {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        justify-content: space-around; }
-        body .main-page .main_header #top-bar li {
-          display: inline;
-          margin-right: 20px; }
-        body .main-page .main_header #top-bar a {
-          text-decoration: none;
-          color: #f86404;
-          font-family: "Open Sans Condensed"; }
     body .main-page .main-logo {
       height: 100vh;
       overflow: hidden;

@@ -8,7 +8,62 @@ h1 {
   .error_mess li {
     list-style: none; }
 
-.row {
-  text-align: center; }
+.left-photo {
+  width: 50vw;
+  overflow: hidden;
+  height: 100vh;
+  background-size: cover;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  background-image: url(atlas.jpg); }
+
+.row-new {
+  position: fixed;
+  top: 50px;
+  right: 0;
+  text-align: center;
+  width: 50vw;
+  height: 80vh; }
+  .row-new .new_user {
+    min-height: 500px;
+    width: 400px;
+    margin: auto;
+    height: inherit;
+    display: block; }
+    .row-new .new_user input {
+      width: inherit;
+      margin: auto;
+      margin-top: -40px;
+      margin-bottom: 30px;
+      -webkit-border-radius: 45px;
+      -moz-border-radius: 45px;
+      border-radius: 45px; }
+    .row-new .new_user label {
+      width: inherit;
+      margin: auto;
+      margin-top: -20px; }
+    .row-new .new_user #user_email {
+      width: 350px; }
+    .row-new .new_user .btn-btn-primary {
+      display: inline-block;
+      background: none;
+      margin-top: 50px;
+      text-decoration: none;
+      text-align: center;
+      border: solid 1px #004F72;
+      -webkit-border-radius: 45px;
+      -moz-border-radius: 45px;
+      border-radius: 45px;
+      font-size: 25px;
+      font-family: "Open Sans Condensed";
+      color: #f86404;
+      -webkit-box-shadow: 0px 0px 20px #ff8400;
+      -moz-box-shadow: 0px 0px 20px #ff8400;
+      box-shadow: 0px 0px 20px #ff8400;
+      opacity: 0.81;
+      filter: alpha(opacity=81); }
+    .row-new .new_user input, .row-new .new_user textarea, .row-new .new_user select, .row-new .new_user .uneditable-input {
+      border: 1px solid lightgrey; }
 
 /*# sourceMappingURL=new.css.map */
