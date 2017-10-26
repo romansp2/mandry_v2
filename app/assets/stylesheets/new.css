@@ -5,11 +5,13 @@ h1 {
   text-align: center !important;
   font-size: 35px; }
 
-.error_mess {
-  width: 100vw;
-  text-align: center; }
-  .error_mess li {
-    list-style: none; }
+#mini-logo {
+  position: fixed;
+  left: 15px;
+  top: 0px;
+  width: 200px;
+  height: 72px;
+  z-index: 3; }
 
 .left-photo {
   width: 50vw;
@@ -28,18 +30,27 @@ h1 {
   text-align: left;
   width: 50vw;
   height: 80vh; }
+  .row-new .fieldWithErrors {
+    display: block; }
   .row-new .new_user {
     margin-top: 75px;
     margin-left: 50px;
     min-height: 500px;
-    width: 500px;
+    width: 600px;
     height: inherit;
     display: block; }
+    .row-new .new_user .error_mess {
+      color: #ff0900;
+      width: inherit;
+      text-align: left; }
+      .row-new .new_user .error_mess li {
+        margin-top: -25;
+        list-style: none; }
     .row-new .new_user input {
       outline: none;
       letter-spacing: 2px;
       background-color: transparent;
-      width: 350px;
+      width: 425px;
       border-width: 1px;
       border-top: none;
       border-left: none;
@@ -61,18 +72,18 @@ h1 {
       margin-top: 10px; }
     .row-new .new_user .btn-btn-primary {
       height: 50px;
-      width: 200px;
+      width: 250px;
       display: inline-block;
       background-color: #f86404;
-      letter-spacing: 1px;
+      letter-spacing: 0.5px;
       margin-top: 25px;
       text-decoration: none;
       text-align: center;
       -webkit-border-radius: 45px;
       -moz-border-radius: 45px;
       border-radius: 45px;
-      font-size: 20px;
-      font-family: "Open Sans Condensed";
+      font-size: 18px;
+      font-family: "Roboto Condensed", sans-serif;
       color: white; }
     .row-new .new_user a {
       color: #f86404;

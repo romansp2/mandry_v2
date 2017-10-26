@@ -4,11 +4,14 @@ h1
   text-align: center !important
   font-size: 35px
 
-.error_mess
-  li
-    list-style: none
-  width: 100vw
-  text-align: center
+#mini-logo
+  position: fixed
+  left: 15px
+  top: 0px
+  width: 200px
+  height: 72px
+  z-index: 3
+
 .left-photo
   width: 50vw
   overflow: hidden
@@ -25,18 +28,27 @@ h1
   text-align: left
   width: 50vw
   height: 80vh
+  .fieldWithErrors
+    display: block
   .new_user
+    .error_mess
+      color: #ff0900
+      li
+        margin-top: -25
+        list-style: none
+      width: inherit
+      text-align: left
     margin-top: 75px
     margin-left: 50px
     min-height: 500px
-    width: 500px
+    width: 600px
     height: inherit
     display: block
     input
       outline: none
       letter-spacing: 2px
       background-color: transparent
-      width: 350px
+      width: 425px
       border-width: 1px
       border-top: none
       border-left: none
@@ -60,23 +72,24 @@ h1
 
     .btn-btn-primary
       height: 50px
-      width: 200px
+      width: 250px
       display: inline-block
       background-color: #f86404
-      letter-spacing: 1px
+      letter-spacing: 0.5px
       margin-top: 25px
       text-decoration: none
       text-align: center
       -webkit-border-radius: 45px
       -moz-border-radius: 45px
       border-radius: 45px
-      font-size: 20px
-      font-family: "Open Sans Condensed"
+      font-size: 18px
+      font-family: 'Roboto Condensed', sans-serif
       color: white
     a
       color: #f86404
       font-size: 20px
       margin-left: 10px
+
       font-family: "Open Sans Condensed"
       &:link
         color: #f86404
