@@ -1,4 +1,4 @@
-<% provide(:title, "Home") %>
+<%= provide(:title, "Mandry") %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,9 +26,11 @@
   <%= render 'main_page/footer' %>
 
 </div>
-<div class="search-page">
+<div class="search-page" id="search_page">
 </div>
-
+    <script>
+        $(".main_header a").mPageScroll2id();
+    </script>
 
 </body>
 </html>

@@ -32,7 +32,7 @@ development:
   username: postgres
 
   # The password associated with the postgres role (username).
-  password: jde861sf
+  password: ecace5fd5ea6e5eb9325200aa6fd7cd9
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -59,7 +59,7 @@ test:
   <<: *default
   database: dev
   username: postgres
-  password: jde861sf
+  password: ecace5fd5ea6e5eb9325200aa6fd7cd9
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
 # ever seen by anyone, they now have access to your database.
