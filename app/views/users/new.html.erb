@@ -16,7 +16,7 @@
       </div>
         <%= f.label :name, 'Никнейм' %><%= f.text_field :name %><%= f.label :email, 'Электронная почта' %><%= f.email_field :email %><%= f.label :password_digest, 'Пароль'%><%= f.password_field :password_digest%>
 
-            <%= f.submit "Зарегистрироваться", class: "btn-btn-primary" %><a><%= link_to 'У меня уже есть аккаунт', about_path %></a>
+            <%= f.submit "Зарегистрироваться", class: "btn-btn-primary" %><a><%= link_to 'У меня уже есть аккаунт', signin_path %></a>
 
       <% end %>
 </div>

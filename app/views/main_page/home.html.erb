@@ -13,7 +13,7 @@
   <%= render 'main_page/header' %>
   <div class="main-logo">
     <video id="video-bg-element" preload="auto" autoplay="true" muted="true" loop="true">
-      <source src="/assets/video.mp4" type="video/mp4" >
+      <source src= <%="/assets/video#{rand(3)}.mp4".html_safe %> type="video/mp4" >
       Not found
     </video>
     <div class="logo">

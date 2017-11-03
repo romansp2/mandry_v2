@@ -4,6 +4,7 @@
  * Copyright 2011-2017 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -6378,6 +6379,10 @@ a.text-dark:focus, a.text-dark:hover {
 .invisible {
   visibility: hidden !important; }
 
+body {
+  min-height: 500px;
+  min-width: 750px; }
+
 .debug_section {
   z-index: 3;
   position: fixed;
@@ -6398,6 +6403,10 @@ a.text-dark:focus, a.text-dark:hover {
   font-size: 19px;
   right: 0;
   margin-top: 10px; }
+  .main_header img {
+    position: fixed;
+    left: 10px;
+    top: 12px; }
   .main_header #top-bar {
     list-style: none;
     padding: 0;

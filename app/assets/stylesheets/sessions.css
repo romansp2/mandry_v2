@@ -1,3 +1,105 @@
+body {
+  background-color: #f9f9f9;
+  min-height: 500px;
+  min-width: 750px; }
 
+h1 {
+  text-align: center !important;
+  font-size: 35px; }
+
+#mini-logo {
+  position: fixed;
+  left: 15px;
+  top: 25vh;
+  width: 200px;
+  height: 72px;
+  z-index: 3; }
+
+.left-photo {
+  width: 50vw;
+  overflow: hidden;
+  height: 100vh;
+  background-size: cover;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  background-image: url(atlas.jpg); }
+
+.row-new {
+  position: fixed;
+  right: 0;
+  top: 0;
+  text-align: left;
+  width: 50vw;
+  height: 80vh; }
+  .row-new .fieldWithErrors {
+    display: block; }
+  .row-new .new_user {
+    margin-top: 75px;
+    margin-left: 50px;
+    min-height: 500px;
+    width: 600px;
+    height: inherit;
+    display: block; }
+    .row-new .new_user .error_mess {
+      color: #ff0900;
+      width: inherit;
+      text-align: left; }
+      .row-new .new_user .error_mess li {
+        margin-top: -25;
+        list-style: none; }
+    .row-new .new_user input {
+      outline: none;
+      letter-spacing: 2px;
+      background-color: transparent;
+      width: 425px;
+      border-width: 1px;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-radius: 0;
+      border-color: #b5b5b5;
+      font-family: "Open Sans Condensed";
+      text-transform: uppercase;
+      font-size: 17px;
+      color: #9f9f9f;
+      padding-left: 5px; }
+    .row-new .new_user label {
+      color: #f86404;
+      font-family: "Open Sans Condensed";
+      text-transform: uppercase;
+      font-size: 25px;
+      width: inherit;
+      margin: auto;
+      margin-top: 10px; }
+    .row-new .new_user .btn-btn-primary {
+      height: 50px;
+      width: 250px;
+      display: inline-block;
+      background-color: #f86404;
+      letter-spacing: 0.5px;
+      margin-top: 25px;
+      text-decoration: none;
+      text-align: center;
+      -webkit-border-radius: 45px;
+      -moz-border-radius: 45px;
+      border-radius: 45px;
+      font-size: 18px;
+      font-family: "Roboto Condensed", sans-serif;
+      color: white; }
+    .row-new .new_user a {
+      color: #f86404;
+      font-size: 20px;
+      margin-left: 10px;
+      font-family: "Open Sans Condensed"; }
+      .row-new .new_user a:link {
+        color: #f86404; }
+      .row-new .new_user a:visited {
+        text-decoration: none; }
+      .row-new .new_user a:hover {
+        color: #f86404;
+        text-decoration: none; }
+      .row-new .new_user a:active {
+        color: chocolate; }
 
 /*# sourceMappingURL=sessions.css.map */
